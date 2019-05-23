@@ -1,0 +1,7 @@
+D:\Repository\Project\GitRepo\DataStructure\DS\DS\obj\Debug\DS.csprojAssemblyReference.cache
+D:\Repository\Project\GitRepo\DataStructure\DS\DS\obj\Debug\DS.csproj.CoreCompileInputs.cache
+D:\Repository\Project\GitRepo\DataStructure\DS\DS\bin\Debug\DS.exe.config
+D:\Repository\Project\GitRepo\DataStructure\DS\DS\bin\Debug\DS.exe
+D:\Repository\Project\GitRepo\DataStructure\DS\DS\bin\Debug\DS.pdb
+D:\Repository\Project\GitRepo\DataStructure\DS\DS\obj\Debug\DS.exe
+D:\Repository\Project\GitRepo\DataStructure\DS\DS\obj\Debug\DS.pdb
