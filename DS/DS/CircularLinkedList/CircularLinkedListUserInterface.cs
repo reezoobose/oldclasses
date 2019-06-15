@@ -90,7 +90,7 @@ namespace DS.CircularLinkedList
                     //Convert input to type T .
                     var newNodeValueInputOne = (T) Convert.ChangeType(newNodeValueOne, typeof(T));
                     //insert after the node.
-                    //_list.InsertAfterANode(searchedValueInputOne, newNodeValueInputOne);
+                    _list.InsertAfterANode(searchedValueInputOne, newNodeValueInputOne);
                     break;
                 case 8:
                     Console.Write("\nInsertion Before The Node With Value : ");
@@ -103,13 +103,13 @@ namespace DS.CircularLinkedList
                     //Convert input to type T .
                     var newNodeValueInputTwo = (T) Convert.ChangeType(newNodeValueTwo, typeof(T));
                     //insert after the node.
-                    //_list.InsertionBeforeANode(searchedValueInputTwo, newNodeValueInputTwo);
+                    _list.InsertionBeforeANode(searchedValueInputTwo, newNodeValueInputTwo);
                     break;
                 case 3:
-                    //_list.DeleteLastNode();
+                    _list.DeleteLastNode();
                     break;
                 case 9:
-                    //_list.DeleteTheFirstNode();
+                    _list.DeleteFirstNode();
                     break;
                 case 10:
                     Console.Write("\nDelete The Node With Value : ");
@@ -118,7 +118,16 @@ namespace DS.CircularLinkedList
                     //Convert input to type T .
                     var nodeWillBeDeletedInput = (T) Convert.ChangeType(nodeWillBeDeleted, typeof(T));
                     //Node delete.
-                    //_list.DeleteTheNode(nodeWillBeDeletedInput);
+                    _list.DeleteNode(nodeWillBeDeletedInput);
+                    break;
+                case 11:
+                    Console.WriteLine("\nInsert The Node Value : ");
+                    //received input.
+                    var valueAtTheBeginning = Console.ReadLine();
+                    //Convert input to type T .
+                    var inputReceivedAtTheBeginning = (T)Convert.ChangeType(valueAtTheBeginning, typeof(T));
+                    //Insert at the end of the list.
+                    _list.InsertBeginningOfaList(new CircularLinkedListNode<T>(inputReceivedAtTheBeginning));
                     break;
             }
         }
@@ -152,8 +161,10 @@ namespace DS.CircularLinkedList
             Console.WriteLine(" [8] : Insert Before A Node.");
             //option 9 Delete the first Node.
             Console.WriteLine(" [9] : Delete The First Node.");
-            //option 9 Delete the first Node.
+            //option 10 Delete the first Node.
             Console.WriteLine(" [10] : Delete The Node.");
+            //Option 11 Insertion At the beginning of the list.
+            Console.WriteLine(" [11] : Insertion At the Beginning.");
         }
     }
 }

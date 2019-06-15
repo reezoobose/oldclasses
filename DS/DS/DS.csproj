@@ -57,9 +57,16 @@
     <Compile Include="SingleLinkedList\SingleLinkedListUtilities.cs" />
     <Compile Include="SingleLinkedList\SingleLinkListNode.cs" />
     <Compile Include="SingleLinkedList\SingleLinkListUserInterface.cs" />
+    <Compile Include="Stack\ArrayImplementation\Stack.cs" />
+    <Compile Include="Stack\ArrayImplementation\StackUserInterface.cs" />
+    <Compile Include="Stack\LinkedListImplementation\SingleLinkedList.cs" />
+    <Compile Include="Stack\LinkedListImplementation\SingleLinkedListNode.cs" />
+    <Compile Include="Stack\LinkedListImplementation\Stack.cs" />
+    <Compile Include="Stack\LinkedListImplementation\StackUserInterface.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

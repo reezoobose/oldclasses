@@ -25,9 +25,7 @@ namespace DS.CircularLinkedList
 
                Console.WriteLine(startPoint.Info);
                startPoint = startPoint.Link;
-           }
-           //Iterate over the list .
-           while (!startPoint.Equals(circularLinkedList.Last.Link));
+           } while (!startPoint.Equals(circularLinkedList.Last.Link));
         }
     }
 }
