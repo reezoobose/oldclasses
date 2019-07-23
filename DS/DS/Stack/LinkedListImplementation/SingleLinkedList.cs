@@ -94,9 +94,18 @@ namespace DS.Stack.LinkedListImplementation
 
             while (pointer != null)
             {
-                Console.Write("\t" + pointer.Info);
+                Console.Write("\t" + pointer.Info.ToString());
                 pointer = pointer.Link;
             }
+        }
+
+        /// <summary>
+        /// Return if list is empty.
+        /// </summary>
+        /// <returns></returns>
+        public bool IsListEmpty()
+        {
+            return _start == null;
         }
 
         /// <summary>

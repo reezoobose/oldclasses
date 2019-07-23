@@ -2,8 +2,11 @@
 //using DS.SingleLinkedList;
 //using DS.DoublyLinkedList;
 //using DS.Stack.ArrayImplementation;
+//using DS.Stack.LinkedListImplementation;
+//using DS.Queue.SingleLinkedListImplementation;
 
-using DS.Stack.LinkedListImplementation;
+using System;
+using DS.Binary_Tree;
 
 namespace DS
 {
@@ -32,8 +35,32 @@ namespace DS
             while (true) arrayImplementationOfStack.UserChoice();
             */
 
+            /*
             var linkedListImplementationOfStack = new StackUserInterface<int>();
             while (true) linkedListImplementationOfStack.UserChoice();
+            */
+
+            /*
+            var queue = new QueueUserInterface();
+            while (true) queue.UserChoice();
+            */
+            /*
+            var queue = new QueueUserInterface<int>();
+            while (true) queue.UserChoice();
+            */
+            /*
+            var recursion = new Recursion.UserInterface();
+            */
+            var btree = new CreateBinaryTree();
+            btree.CreatedBinaryTree.PrintTree();
+            btree.CreatedBinaryTree.PreOrder();
+            btree.CreatedBinaryTree.PreOrderIterative();
+            btree.CreatedBinaryTree.InOrder();
+            btree.CreatedBinaryTree.InOrderIterative();
+            btree.CreatedBinaryTree.PostOrder();
+            btree.CreatedBinaryTree.PostOrderIterative();
+            btree.CreatedBinaryTree.LevelOrder();
+            Console.ReadKey();
         }
     }
 }

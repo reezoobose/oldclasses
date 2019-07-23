@@ -43,6 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Binary Tree\Binary Search Tree\BinarySearchTree.cs" />
+    <Compile Include="Binary Tree\BinaryTree.cs" />
+    <Compile Include="Binary Tree\BinaryTreeNode.cs" />
+    <Compile Include="Binary Tree\CreateBinaryTree.cs" />
     <Compile Include="CircularLinkedList\CircularLinkedList.cs" />
     <Compile Include="CircularLinkedList\CircularLinkedListNode.cs" />
     <Compile Include="CircularLinkedList\CircularLinkedListUserInterface.cs" />
@@ -53,6 +57,20 @@
     <Compile Include="DoublyLinkedList\DoublyLinkedListUtilities.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Queue\ArrayImplementation\QueueArrayImplementation.cs" />
+    <Compile Include="Queue\ArrayImplementation\QueueUserInterface.cs" />
+    <Compile Include="Queue\SingleLinkedListImplementation\DoubleEndedLinkedList.cs" />
+    <Compile Include="Queue\SingleLinkedListImplementation\LinkedListNode.cs" />
+    <Compile Include="Queue\SingleLinkedListImplementation\QueueLinkedListImplementation.cs" />
+    <Compile Include="Queue\SingleLinkedListImplementation\QueueUserInterface.cs" />
+    <Compile Include="Recursion\BaseConversion.cs" />
+    <Compile Include="Recursion\Factorial.cs" />
+    <Compile Include="Recursion\FibonacciSeries.cs" />
+    <Compile Include="Recursion\GreatestCommonDivisor.cs" />
+    <Compile Include="Recursion\Power.cs" />
+    <Compile Include="Recursion\PrintNumber.cs" />
+    <Compile Include="Recursion\SumOfDigits.cs" />
+    <Compile Include="Recursion\UserInterface.cs" />
     <Compile Include="SingleLinkedList\SingleLinkedList.cs" />
     <Compile Include="SingleLinkedList\SingleLinkedListUtilities.cs" />
     <Compile Include="SingleLinkedList\SingleLinkListNode.cs" />

@@ -14,6 +14,12 @@ namespace DS.Stack.LinkedListImplementation
         private static SingleLinkedList<T> _linkedList;
 
         /// <summary>
+        /// Is stack is empty .
+        /// </summary>
+        /// <returns></returns>
+        public bool IsStackEmpty => _linkedList.IsListEmpty();
+
+        /// <summary>
         ///     Constructor.
         /// </summary>
         public Stack()
@@ -48,7 +54,7 @@ namespace DS.Stack.LinkedListImplementation
                 throw new InvalidOperationException("\nOperation Not performed");
             }
         }
-
+        #endregion
         /// <summary>
         ///     Peek of Stack.
         /// </summary>
@@ -68,6 +74,8 @@ namespace DS.Stack.LinkedListImplementation
             }
         }
 
+
+
         /// <summary>
         ///     Display
         /// </summary>
@@ -84,6 +92,6 @@ namespace DS.Stack.LinkedListImplementation
             }
         }
 
-        #endregion
+        
     }
 }

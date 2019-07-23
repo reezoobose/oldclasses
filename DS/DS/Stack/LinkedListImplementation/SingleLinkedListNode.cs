@@ -10,5 +10,10 @@
             Info = value;
             Link = null;
         }
+
+        public override string ToString()
+        {
+            return Info.ToString();
+        }
     }
 }
