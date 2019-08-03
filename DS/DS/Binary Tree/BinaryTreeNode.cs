@@ -25,7 +25,7 @@ namespace DS.Binary_Tree
         /// <summary>
         /// Info part .
         /// </summary>
-        public T Info { get; }
+        public T Info { get; set; }
 
         public BinaryTreeNode(T info)
         {
